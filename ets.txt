@@ -1,0 +1,67 @@
+ETS : Entrée -> Traitement -> Sortie
+
+Écrire la planification d'une MÉTHODE de votre programme qui prend soit un paramètre ou
+retourne une valeur au programme.
+
+>>> Ne pas analyser la méthode main <<<
+
+Faire cette planification selon le diagramme ETS, incluant les cas de test à utiliser 
+pour vous assurer qu'elle fonctionne correctement. Un ensemble complet de cas de test 
+inclus un cas pour chaque condition possible dans la méthode.
+
+Utiliser les sections suivantes pour organiser votre travail. Utiliser le gabarit dans
+les notes du cours comme référence.
+
+                
+                
+                ANALYSER DE LA METHODE [convert]
+##############################################################################
+# ENTRÉES
+#nom:valeur
+#type:nombre decimal ou entier positif
+#source:console
+
+
+
+
+##############################################################################
+# SORTIE 
+#Description:une phase avec montrant la valeur initial et la valeur convertie
+#format:[start] en euro vous donne-> [end]
+#Destination:La console
+
+
+
+    
+##############################################################################
+# TRAITEMENT (pseudocode)
+
+1.Début
+2.assigner à la variable start la valeur -1
+3.assigner à la variable end la valeur 0
+4.pendant que (start < 0) repeter les etapes suivantes
+5.Affiche “entrez le montant”
+6.prendre la valeur donné par l’utilisateurs
+7.en registre la valeur dans la variable start
+8.si start est un nombre ,faire l'étape 11
+9.sinon faire l'étape 14
+11.si start est un nombre positif, faire l'étape 13
+12.sinon faire l'étape 14.
+13.assigner à end la valeur (start * facteur)//regarde comment on peut interprete facteur.
+    afficher end
+    faire étape 16
+14.Afficher “impossible”
+15.faire étape 5
+16.arrêt
+
+
+
+
+
+
+##############################################################################
+# CAS DE TEST 
+#89 dollar americain->83.71 euro
+#93.6 dollar americain -> 65 euro(le resultat peut varier selon la langue de ton clavier[pour la virgule])
+#-89 dollar americain ->impossible
+#hcdcdhs->impossible

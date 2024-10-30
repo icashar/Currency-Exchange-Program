@@ -1,0 +1,64 @@
+1.afficher un message d'acceuille
+2.choisir la devise a convertir entre:USD,EUR ou CAD 
+3.choisir la monnaie d'echange entre:USD,EUR ou CAD 
+
+4.Si L'utilisateur choisir de convertir USD en EUR, faire l'étape 5
+5.	affiche "entre un montant en dollar americain"
+    assigner la valeur usd au montant donnée
+    assigner à eur la valeur (usd *0.94)
+    afficher eur
+    faire l'étape 23
+
+6. sinon faire l'etape 7
+
+7.Si L'utilisateur choisir de convertir USD en CAD, faire l'étape 8
+8.  affiche "entre un montant en dollar americain"
+    assigner la valeur usd au montant donnée
+    assigner à cad la valeur (usd * 1.36)
+    afficher cad
+    faire l'étape 23
+
+9.sinon faire l'etape 10
+
+10.Si L'utilisateur choisir de convertir EUR en USD, faire l'étape 11
+11. affiche "entre un montant en euro"
+    assigner la valeur euro au montant donnée
+    assigner à usd la valeur (eur * 1.07)
+    afficher usd
+    faire l'étape 23
+
+12.sinon faire l'etape 13
+
+13.Si L'utilisateur choisir de convertir EUR en CAD, faire l'étape 14
+14. affiche "entre un montant en euro"
+    assigner la valeur euro au montant donnée
+    assigner à cad la valeur (eur * 1.44 )
+    afficher cad
+    faire l'étape 23
+
+15.sinon faire l'etape 16
+
+16.Si L'utilisateur choisir de convertir CAD en USD, faire l'étape 17
+17. affiche "entre un montant en dollar canadiens"
+    assigner la valeur can au montant donnée
+    assigner à usd la valeur (cad*0.74)
+    afficher usd
+    faire l'étape 23
+
+18.sinon faire l'étape 19
+
+19.Si L'utilisateur choisir de convertir CAD en EUR faire l'étape 20
+20. affiche "entre un montant en dollar canadiens"
+    assigner la valeur can au montant donnée
+    assigner à eur la valeur (cad*0.69)
+    afficher eur
+    faire l'étape 23
+
+21.sinon faire l'étape 22
+22. afficher"impossible"
+
+23.afficher"voulez vous convertir autre choses? "
+24.si oui faire aller à l'étape 2
+25.si non aller l'étape 26
+26.afficher "Merci à la prochaine"
+27.arrêter
